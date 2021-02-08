@@ -1,0 +1,32 @@
+---
+title: "data_preparation"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Data Preparation
+
+```{r data preparation of individual CDC file}
+library(haven) 
+data_main<- read_dta("Aggregated_2016.dta")
+
+factor_cols <- c("preterm","StCnty" , "mrstatefips", "mrcntyfips", "Education_M", "Education_F","Married", "STD", "Adequate", "Inadequate", "Intermediate", "pay", "Race_M", "Race_F", "WIC", "sex_M", "diab", "hyper", "Previous_preterm", "Infertility_treatment", "Previous_cesareans", "Drinking_Water_Viol", "interval")
+data_main[factor_cols] <- lapply(data_main[factor_cols], factor)
+
+
+#data_main$mrcntyfips <- NULL
+#library("caret")
+#dmy <- dummyVars(" ~ .", data = data_main)
+#dat <- data.frame(predict(dmy, newdata = data_main[1:nrow(data_main),]))
+
+#To rearrange columns:
+#refcolumn <- c("preter", "combgest")
+#data_main <- data_main[,setdiff(refcolumns, names(data_main))]
+
+save(data_main, file = "Aggregate_16.RData")   #This is for the windows OS
+```
+
