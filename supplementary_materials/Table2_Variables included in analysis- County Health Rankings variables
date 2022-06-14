@@ -1,5 +1,6 @@
-| Poor_Health               | Continuous | 0-100%       |
+| Variable                  | Type       | Scale        |
 |---------------------------|------------|--------------|
+| Poor_Health               | Continuous | 0-100%       |
 | Poor_Physical_Days        | Continuous | 2.2- 6.5     |
 | Poor_Mental_Days          | Continuous | 2.1- 5.6     |
 | Adult_Smoking             | Continuous | 0-100%       |
