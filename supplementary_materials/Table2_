@@ -1,0 +1,38 @@
+| Poor_Health               | Continuous | 0-100%       |
+|---------------------------|------------|--------------|
+| Poor_Physical_Days        | Continuous | 2.2- 6.5     |
+| Poor_Mental_Days          | Continuous | 2.1- 5.6     |
+| Adult_Smoking             | Continuous | 0-100%       |
+| Adult_Obesity             | Continuous | 0-100%       |
+| Physical_Inacitvity       | Continuous | 0-100%       |
+| Access_to_Exercise        | Continuous | 0-100%       |
+| Exessive_Drinking         | Continuous | 0-100%       |
+| Alcohol_Driving_Death     | Continuous | 0-100%       |
+| Uninsured_Total           | Continuous | 0-100%       |
+| Prev_Hospital_Stays       | Continuous | 0-100%       |
+| College_Degree            | Continuous | 0-100%       |
+| Unemployment              | Continuous | 0-100%       |
+| Children_In_Pov           | Continuous | 0-100%       |
+| Income_Inequality         | Continuous | 2.6- 8.7     |
+| Chil_in_Single_Parent     | Continuous | 0-100%       |
+| Social_Asoc               | Continuous | 0-81         |
+| Air_Particulate_Matter    | Continuous | 0-100%       |
+| Drinking_Water_Viol       | Continuous | 0-100%       |
+| Severe_Housing_Prob       | Continuous | 0-100%       |
+| Driving_Alone_Work        | Continuous | 0-100%       |
+| Long_Drive_Work           | Continuous | 0-100%       |
+| Diabetes                  | Continuous | 0-100%       |
+| Food_Insecurity           | Continuous | 0-100%       |
+| Lim_Healthy_Food          | Continuous | 0-100%       |
+| Insuf_Sleep               | Continuous | 0-100%       |
+| Uninsured_Adults          | Continuous | 0-100%       |
+| Uninsured_Children        | Continuous | 0-100%       |
+| Healthcare_cost           | Continuous |  4149- 18543 |
+| Median_Household_Income   | Continuous | 0-100%       |
+| Perc_Und_Eighteen         | Continuous | 0-100%       |
+| Perc_Ove_SixtyFive        | Continuous | 0-100%       |
+| Black_Perc                | Continuous | 0-100%       |
+| Hisp_Perc                 | Continuous | 0-100%       |
+| Rural_Perc                | Continuous | 0-100%       |
+| Dentists_Ratio            | Continuous | 0-100        |
+| Other_PC_Physicians_Ratio | Continuous | 0-100        |
