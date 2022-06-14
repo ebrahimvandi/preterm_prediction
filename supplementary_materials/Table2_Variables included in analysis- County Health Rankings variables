@@ -1,39 +1,46 @@
-| Variable                  | Type       | Scale        |
-|---------------------------|------------|--------------|
-| Poor_Health               | Continuous | 0-100%       |
-| Poor_Physical_Days        | Continuous | 2.2- 6.5     |
-| Poor_Mental_Days          | Continuous | 2.1- 5.6     |
-| Adult_Smoking             | Continuous | 0-100%       |
-| Adult_Obesity             | Continuous | 0-100%       |
-| Physical_Inacitvity       | Continuous | 0-100%       |
-| Access_to_Exercise        | Continuous | 0-100%       |
-| Exessive_Drinking         | Continuous | 0-100%       |
-| Alcohol_Driving_Death     | Continuous | 0-100%       |
-| Uninsured_Total           | Continuous | 0-100%       |
-| Prev_Hospital_Stays       | Continuous | 0-100%       |
-| College_Degree            | Continuous | 0-100%       |
-| Unemployment              | Continuous | 0-100%       |
-| Children_In_Pov           | Continuous | 0-100%       |
-| Income_Inequality         | Continuous | 2.6- 8.7     |
-| Chil_in_Single_Parent     | Continuous | 0-100%       |
-| Social_Asoc               | Continuous | 0-81         |
-| Air_Particulate_Matter    | Continuous | 0-100%       |
-| Drinking_Water_Viol       | Continuous | 0-100%       |
-| Severe_Housing_Prob       | Continuous | 0-100%       |
-| Driving_Alone_Work        | Continuous | 0-100%       |
-| Long_Drive_Work           | Continuous | 0-100%       |
-| Diabetes                  | Continuous | 0-100%       |
-| Food_Insecurity           | Continuous | 0-100%       |
-| Lim_Healthy_Food          | Continuous | 0-100%       |
-| Insuf_Sleep               | Continuous | 0-100%       |
-| Uninsured_Adults          | Continuous | 0-100%       |
-| Uninsured_Children        | Continuous | 0-100%       |
-| Healthcare_cost           | Continuous |  4149- 18543 |
-| Median_Household_Income   | Continuous | 0-100%       |
-| Perc_Und_Eighteen         | Continuous | 0-100%       |
-| Perc_Ove_SixtyFive        | Continuous | 0-100%       |
-| Black_Perc                | Continuous | 0-100%       |
-| Hisp_Perc                 | Continuous | 0-100%       |
-| Rural_Perc                | Continuous | 0-100%       |
-| Dentists_Ratio            | Continuous | 0-100        |
-| Other_PC_Physicians_Ratio | Continuous | 0-100        |
+| Variable                  | Type       | Scale        | Definition                                                                                                                                                                                                                                                                                                                                                     
+|---------------------------|------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Poor_Health               | Continuous | 0-100%       | Percentage of adults in a county who consider themselves to be in poor or fair health in past 30 days
+| Poor_Physical_Days        | Continuous | 2.2- 6.5     | Average number of physically unhealthy days reported in past 30 days
+| Poor_Mental_Days          | Continuous | 2.1- 5.6     | Average number of mentally unhealthy days reported in past 30 days
+| Adult_Smoking             | Continuous | 0-100%       | Percentage of the adult population in a county who both report that they currently smoke every day or most days and have smoked at least 100 cigarettes in their lifetime.
+| Adult_Obesity             | Continuous | 0-100%       | Percentage of the adult population (age 20 and older) that reports a body mass index (BMI) greater than or equal to 30 kg/m2
+| Physical_Inacitvity       | Continuous | 0-100%       | Percentage of adults ages 20 and over reporting no leisure-time physical activity in the past month
+| Access_to_Exercise        | Continuous | 0-100%       | Percentage of individuals in a county who live reasonably close to a location for physical activity. Locations for physical activity are defined as parks or recreational facilities. Individuals are considered to have access to exercise opportunities if they:
+                                                          1. Reside in a census block that is within a half mile of a park, or
+                                                          2. Reside in an urban census block that is within one mile of a recreational facility, or
+                                                          3. Reside in a rural census block that is within three miles of a recreational facility.
+| Exessive_Drinking         | Continuous | 0-100%       | Percentage of a county’s adult population that reports binge or heavy drinking in the past 30 days
+| Alcohol_Driving_Death     | Continuous | 0-100%       | Percentage of motor vehicle crash deaths with alcohol involvement
+| Uninsured_Total           | Continuous | 0-100%       | Percentage of the population under age 65 without health insurance coverage. 
+| Prev_Hospital_Stays       | Continuous | 0-100%       | Age-adjusted hospital discharge rate for ambulatory care-sensitive conditions per 1,000 fee-for-service Medicare enrollees.
+| College_Degree            | Continuous | 0-100%       | Percentage of the population ages 25-44 with some post-secondary education, such as enrollment in vocational/technical schools, junior colleges, or four-year colleges
+| Unemployment              | Continuous | 0-100%       | Percentage of the county’s civilian labor force, age 16 and older, that is unemployed but seeking work.
+| Children_In_Pov           | Continuous | 0-100%       | Percentage of people under age 18 living in poverty
+| Income_Inequality         | Continuous | 2.6- 8.7     | Ratio of household income at the 80th percentile to that at the 20th percentile. A higher inequality ratio indicates greater division between the top and bottom ends of the income spectrum.
+| Chil_in_Single_Parent     | Continuous | 0-100%       | Percentage of children (less than 18 years of age) living in family households that are headed by a single parent
+| Social_Asoc               | Continuous | 0-81         | Number of membership associations per 10,000 population. Rates measure the number of events in a given time period (generally one or more years) divided by the average number of people at risk during that period.
+| Air_Particulate_Matter    | Continuous | 0-100%       | Average daily density of fine particulate matter in micrograms per cubic meter.  Fine particulate matter is defined as particles of air pollutants with an aerodynamic diameter less than 2.5 micrometers.
+| Drinking_Water_Viol       | Continuous | 0-100%       | Annual average percentage of the population served by community water systems who receive drinking water that does not meet all applicable health-based drinking water standards
+| Severe_Housing_Prob       | Continuous | 0-100%       | Percentage of households with one or more of the following housing problems:
+                                                          1. Housing unit lacks complete kitchen facilities;
+                                                          2. Housing unit lacks complete plumbing facilities;
+                                                          3. Household is overcrowded; or
+                                                          4. Household is severely cost burdened.
+| Driving_Alone_Work        | Continuous | 0-100%       | Percentage of the workforce that usually drives alone to work
+| Long_Drive_Work           | Continuous | 0-100%       | Percentage of workers who drive alone (via car, truck, or van) with a commute longer than 30 minutes
+| Diabetes                  | Continuous | 0-100%       | Percentage of adults aged 20 and above with diagnosed diabetes in a given county
+| Food_Insecurity           | Continuous | 0-100%       | Percentage of the population that did not have access to a reliable source of food during the past year
+| Lim_Healthy_Food          | Continuous | 0-100%       | Percentage of the population that is low income and does not live close to a grocery store. Low income is defined as having an annual family income of less than or equal to 200 percent of the FPL. Living close to a grocery store in rural areas means living less than 10 miles from a grocery store whereas in nonrural areas, it means less than 1 mile. 
+| Insuf_Sleep               | Continuous | 0-100%       | Percentage of adults who report that they sleep less than 7 hours per night on average
+| Uninsured_Adults          | Continuous | 0-100%       | Percentage of the population ages 18 to 64 that have no health insurance coverage in a given county
+| Uninsured_Children        | Continuous | 0-100%       | Percentage of the population under age 19 that has no health insurance coverage in a given county.
+| Healthcare_cost           | Continuous | 4149- 18543  | Price-adjusted Medicare reimbursements (Parts A and B) per enrollee
+| Median_Household_Income   | Continuous | 0-100%       | Median Household Income is based on one year of survey data and is created using complex statistical modeling. Modeling generates more stable estimates for places with small numbers of residents or survey responses. 
+| Perc_Und_Eighteen         | Continuous | 0-100%       | Percentage of the population below 18 years of age
+| Perc_Ove_SixtyFive        | Continuous | 0-100%       | Percentage of the population over 65 years of age
+| Black_Perc                | Continuous | 0-100%       | Percentage of the population that is non-Hispanic African American
+| Hisp_Perc                 | Continuous | 0-100%       | Percentage of the population that is Hispanic
+| Rural_Perc                | Continuous | 0-100%       | Percentage of the population that lives in a rural area
+| Dentists_Ratio            | Continuous | 0-100        | Ratio of dentists to 10,000 population
+| Other_PC_Physicians_Ratio | Continuous | 0-100        | Ratio of other primary care providers to 10,000 people
